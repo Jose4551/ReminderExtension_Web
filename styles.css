@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+    width: auto;
+    height: auto;
+    background-color: #44C1FF;
+
+}
+
+.container {
+    height: auto;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 4px;
+    background-color: lightgrey;
+}
+
+div {
+    place-items: center;
+}
