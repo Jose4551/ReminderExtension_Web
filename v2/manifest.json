@@ -1,0 +1,22 @@
+
+{
+  "name": "ULTIMATE ACTIVITY TRACKER",
+  "description": "Base Level Extension",
+  "version": "1.0",
+  "manifest_version": 3,
+
+  "action": {
+    "default_title": "Tlaloc Reminder",
+    "default_icon": "hello_extensions.png"
+  },
+
+  "side_panel": {
+    "default_path": "hello.html"
+  },
+
+  "permissions": ["sidePanel"],
+
+  "background": {
+    "service_worker": "background.js"
+  }
+}
