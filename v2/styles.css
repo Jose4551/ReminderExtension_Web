@@ -1,0 +1,49 @@
+
+body{
+	font-family: courier;
+	width: auto;
+	height: auto;
+	background-color: #44C1FF;
+	border: 2px solid yellow;
+	padding: 10px;
+	animation-duration: 3s;
+	animation-name: bounce;
+	animation-iteration-count: infinite;
+		
+}
+p{
+	color: black;
+	font-weight: bold;
+}
+.container {
+    height: auto;
+    align-items: center;
+	display:block;
+	font-weight: bold;
+	
+	
+}
+.head{
+	text-align: center;
+	color:black;
+	text-shadow: black;
+	background-color: aquamarine;
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+	border-radius: 10px;
+}
+
+button{
+  	padding: 5px 10px;
+	display: block; 
+	margin: 0 auto;
+    border-radius: 4px;
+    background-color: green;
+	color: whitesmoke;
+	}
+   div{
+	place-items: center; 
+}
+
